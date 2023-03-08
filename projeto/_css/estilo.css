@@ -1,0 +1,30 @@
+.table {
+    border: dotted blue;
+    background-color: orange;
+    color: yellowgreen;
+}
+
+.table:hover {
+    color: aqua;
+    background-color: blueviolet;
+}
+
+.borda {
+    border-radius: 50%;
+}
+
+.borda:hover {
+    opacity: 0.6;
+}
+
+.inverter:hover{
+    transform: rotate(180deg)
+}
+
+.animacao{
+    transition: transform 10s;
+}
+
+.animacao:hover{
+    transform: scaleX(-1);
+}
